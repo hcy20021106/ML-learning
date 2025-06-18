@@ -20,7 +20,7 @@ class MyData(Dataset):
         label = self.label_dir
         return img, label
 
-    def __len__self():
+    def __len__(self):
         return len(self.img_path)
 
 
