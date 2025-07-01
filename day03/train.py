@@ -77,7 +77,7 @@ dataset = MyData(root_dir, classes, transform=transform)
 
 # 按比例划分训练、验证、测试集 70%, 15%, 15%
 total_size = len(dataset)
-train_size = int(0.7 * total_size)
+train_size = int(0.5 * total_size)
 val_size = int(0.15 * total_size)
 test_size = total_size - train_size - val_size
 
